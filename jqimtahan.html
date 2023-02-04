@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="jqimtahan.css">
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="divsign">
+        <div class="signup">
+            <h2>Sign in</h2>
+            <input type="text" placeholder="First name" class="ad">
+            <input type="text" placeholder="Last name" class="soyad">
+            <input type="password" name="password" autocomplete="current-password" required="" id="id_password"
+                placeholder="Password">
+            <i class="far fa-eye" id="togglePassword"></i>
+            <p>Sifre yalnisdir!</p>
+            <button class="btnsign">Enter exam</button>
+        </div>
+    </div>
+    <div class="divimtahan">
+        <div class="divimt">
+            <div class="divsol">
+                <div class="divsual"> <span>10</span></div>
+                <div class="divvariant">
+                    <div id="a" class="variant"> A) <span></span></div>
+                    <div id="b" class="variant"> B) <span></span></div>
+                    <div id="c" class="variant"> C) <span></span></div>
+                    <div id="d" class="variant"> D) <span></span></div>
+                </div>
+                <div class="divnomreler">
+                    <i class="fa-solid fa-caret-left"></i>
+                    <div class="nomre">1</div>
+                    <div class="nomre">2</div>
+                    <div class="nomre">3</div>
+                    <div class="nomre">4</div>
+                    <div class="nomre">5</div>
+                    <div class="nomre">6</div>
+                    <div class="nomre">7</div>
+                    <div class="nomre">8</div>
+                    <div class="nomre">9</div>
+                    <div class="nomre">10</div>
+                    <i class="fa-solid fa-caret-right"></i>
+                </div>
+            </div>
+            <div class="divblur"></div>
+            <div class="divsag">
+                <h2>Total Exam Time Left</h2>
+                <div class="divtime">
+                    <span class="deq">10</span> :
+                    <span class="san">0</span>
+                </div>
+                <p>Minimum Required right answers : 7</p>
+                <p class="firstName">First name:<span> </span> </p>
+                <p class="lastName">Last name: <span></span></p>
+                <button class="btnstart">Start exam</button>
+                <button class="btnfinish">Finish exam</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="divresult">
+        <div class="divres">
+            <h2>Result</h2>
+            <div class="divpass">Dear <span></span> you passed the exam!</div>
+            <div class="divfail">Dear <span></span> you failed the exam!</div>
+            <p>Right answers:<span></span></p>
+            <p>Wrong answers:<span></span></p>
+            <p>Unanswered questions:<span></span></p>
+        </div>
+
+    </div>
+
+
+    <script src="jqimtahan.js"></script>
+</body>
+
+</html>

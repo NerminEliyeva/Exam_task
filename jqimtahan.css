@@ -1,0 +1,210 @@
+.divsign {
+    width: 100%;
+    height: 500px;
+    /* display: none; */
+}
+
+.signup {
+    width: 300px;
+    height: 250px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    text-align: center;
+    margin: 200px auto;
+    padding-top: 10px;
+}
+
+.signup input {
+    width: 80%;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: none;
+    border: 1px solid gray;
+    padding: 5px;
+}
+
+.signup p {
+    margin: 0px;
+    padding: 0px;
+    font-size: 14px;
+    color: red;
+    text-align: left;
+    margin-left: 30px;
+    /* display: none; */
+}
+
+.btnsign {
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    margin: 5px;
+    background-color: #bc8fba;
+    color: white;
+    cursor: pointer;
+}
+
+.fa-eye {
+    margin-left: -30px;
+}
+
+#id_password {
+    margin-right: 3px;
+}
+
+.divimtahan {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 500px;
+    display: none;
+}
+
+.divimt {
+    width: 900px;
+    height: 300px;
+    background-color: #bc8fba;
+    margin: 100px auto;
+    border-radius: 10px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+
+.divsol {
+    width: 48%;
+    height: 300px;
+}  
+
+/* Blur goruntu yaratmaq */
+.divblur{
+    width: 49%;
+    height: 300px;
+    backdrop-filter: blur(4px);     
+    position: absolute;
+    left: 0px;
+}
+
+.divsol .divsual {
+    width: 98%;
+    height: 100px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+    margin: 10px 5px;
+    background-color: white;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.divsol .divvariant {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.divsol .divvariant .variant {
+    width: 45%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+    border-radius: 5px;
+    background-color: white;
+    padding: 10px 5px;
+    margin-bottom: 10px;
+
+}
+
+.divsol .divnomreler {
+    width: 95%;
+    display: flex;
+    margin: 40px auto;
+}
+
+.divsol .divnomreler .nomre {
+    width: 30px;
+    height: 20px;
+    text-align: center;
+    margin: 2px;
+    cursor: pointer;
+}
+
+.nomreactive {
+    border-radius: 30px;
+    background-color: white;
+    border: 1px solid;
+    border-color: #753081;
+}
+
+.divsol .divnomreler i {
+    width: 30px;
+    text-align: center;
+    font-size: 26px;
+    cursor: pointer;
+}
+
+.divsag {
+    width: 48%;
+    height: 300px;
+    text-align: center;
+
+}
+
+.divsag .divtime {
+    width: 100px;
+    height: 30px;
+    background-color: white;
+    border-radius: 30px;
+    border: 1px solid;
+    border-color: #753081;
+    margin: auto;
+    font-size: 30px;
+}
+
+.divsag .btnstart {
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    margin: 5px;
+    background-color: #5e9a74;
+    color: white;
+    cursor: pointer;
+}
+
+.divsag .btnfinish {
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    margin: 5px;
+    background-color: #872440;
+    color: white;
+    cursor: pointer;
+}
+
+.divresult {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 500px;
+    display: none;
+}
+
+.divres {
+    width: 500px;
+    height: 250px;
+    background-color: #bc8fba;
+    margin: 100px auto;
+    border-radius: 10px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+    color: white;
+    padding: 10px;
+}
+.divres h2{
+    text-align: center;
+  
+}
+.divpass , .divfail{
+   color: #892944;
+}
